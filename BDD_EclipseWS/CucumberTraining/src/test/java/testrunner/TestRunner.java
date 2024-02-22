@@ -16,10 +16,11 @@ import io.cucumber.junit.CucumberOptions;
 						 			"html:target/HTMLReports/report.html"
 						 	},
 				 monochrome = true,
+				 tags = "@development",
 //				 tags = "@non-ui",
 //				 tags = "@non-ui and @smoke",
 //				 tags = "@non-ui or @smoke",
-				 tags = "@ui and not @google",
+//				 tags = "@ui and not @google",
 //				 dryRun = true
 				 dryRun = false
 		
